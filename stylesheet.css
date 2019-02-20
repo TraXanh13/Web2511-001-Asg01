@@ -1,3 +1,7 @@
+header {
+	text-align: center;
+}
+
 img {
 	width: 300px;
 	height: 200px;
@@ -6,5 +10,5 @@ img {
 
 li {
 	display: inline;
-	border: 1px solid;
+	margin-right: 15px;
 }
