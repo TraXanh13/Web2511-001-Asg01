@@ -1,0 +1,10 @@
+img {
+	width: 300px;
+	height: 200px;
+	Align: left;
+}
+
+li {
+	display: inline;
+	border: 1px solid;
+}
