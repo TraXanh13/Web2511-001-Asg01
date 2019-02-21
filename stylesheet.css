@@ -1,5 +1,20 @@
+body {
+	background-color: black;
+}
+
 header {
 	text-align: center;
+	color: white;
+}
+
+h1 {
+	margin-bottom: 10px;
+	color: white;
+}
+
+h2 {
+	margin: 10px;
+	color: white;
 }
 
 img {
@@ -9,6 +24,11 @@ img {
 }
 
 li {
+	color: white;
 	display: inline;
 	margin-right: 15px;
+}
+
+nav {
+	
 }
