@@ -1,7 +1,7 @@
 body {
 	overflow: hidden;
 	margin: 0px;
-	background-image: url("./images/MarbleBackground.jpg");
+	background-image: url("../images/MarbleBackground.jpg");
 }
 
 header {
@@ -45,12 +45,17 @@ hr {
 	color: #FE657A;
 }
 
+.redletter {
+	color: red;
+}
+
 #Combo-header{
 	text-align:center;
 	font-size: 55px;
 	margin-top: 5px;
 	margin-bottom: 1px;
 }
+
 #Choice-tag{
  	text-align:center;
 	font-size: 20px;
@@ -58,12 +63,10 @@ hr {
 	margin-top: 1px;
 	margin-bottom: 1px;
 }
+
 #Price-Tag{
 	text-align:center;
 	font-size: 45px;
 	margin-top: 1px;
 	margin-bottom:1px;	
-}
-.redletter {
-	color: red;
 }
