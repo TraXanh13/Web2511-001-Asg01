@@ -11,17 +11,9 @@ header {
 	background-color: #FDF2F7;
 }
 
-h3 {
-	margin: 10px;
-}
-
 #logo {
 	height: 150px;
 	align: center;
-}
-
-a {
-	color: black;
 }
 
 li {
@@ -47,26 +39,4 @@ hr {
 
 .redletter {
 	color: red;
-}
-
-#Combo-header{
-	text-align:center;
-	font-size: 55px;
-	margin-top: 5px;
-	margin-bottom: 1px;
-}
-
-#Choice-tag{
- 	text-align:center;
-	font-size: 20px;
-	line-height: 80%;
-	margin-top: 1px;
-	margin-bottom: 1px;
-}
-
-#Price-Tag{
-	text-align:center;
-	font-size: 45px;
-	margin-top: 1px;
-	margin-bottom:1px;	
 }
