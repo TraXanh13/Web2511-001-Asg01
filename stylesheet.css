@@ -1,6 +1,7 @@
 body {
 	overflow: hidden;
 	margin: 0px;
+	background-image: url("./images/MarbleBackground.jpg");
 }
 
 header {
@@ -36,23 +37,10 @@ hr {
 	margin: 0px;
 }
 
-.reservation {
-	color: black;
-	border: 1px solid black;
-}
-
 .selected {
 	color: #FE657A;
 }
 
 .pinkletter {
 	color: #FE657A;
-}
-
-.main {
-	overflow: hidden;
-	width: 100%;
-	height: 100%;
-	background-color: black;
-	color: white;
 }
