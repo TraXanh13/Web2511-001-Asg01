@@ -16,7 +16,7 @@ Assignment must have four pages
     * META tags `Kyle` `Jarod`
   * Unique description on each page `Kyle` `Jarod`
 * Have:
-  * An image with figure and figurecaption as well as using alts
+  * An image with figure and figurecaption as well as using alts  `Jarod`
     * May leave alt empty for decorative images
   * At least one HTML comment `Kyle`
   * One external link to another website to a new tab `Kyle`
