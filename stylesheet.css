@@ -1,14 +1,21 @@
-header {
+body {
+	overflow: hidden;
 	margin: 0px;
+}
+
+header {
+	width: 100%;
+	margin: 0 auto;
 	text-align: center;
+	background-color: #FDF2F7;
 }
 
 h3 {
 	margin: 10px;
 }
 
-img {
-	height: 100px;
+img, #logo {
+	height: 150px;
 	align: center;
 }
 
@@ -21,21 +28,30 @@ li {
 	margin-right: 15px;
 }
 
-nav {
-	text-align: center;
-}
-
 hr {
 	display: block;
 	height: 0px;
 	border: 1px solid;
 	border-color: #FE657A;
+	margin: 0px;
 }
 
-#selected {
+.reservation {
+	display: block;
+}
+
+.selected {
 	color: #FE657A;
 }
 
-#pinkletter {
+.pinkletter {
 	color: #FE657A;
+}
+
+div, .main {
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	color: white;
 }
