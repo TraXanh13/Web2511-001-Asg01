@@ -1,6 +1,7 @@
 body {
 	overflow: hidden;
 	margin: 0px;
+	/*Image taken from pixabay: https://pixabay.com/en/white-background-pattern-tile-2398946/ */
 	background-image: url("../images/MarbleBackground.jpg");
 }
 
