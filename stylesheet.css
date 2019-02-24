@@ -1,7 +1,19 @@
+html {
+	height:100%
+	margin:0;
+	padding:0;	/*added this one too bruh*/
+
+}
+
+
+
 body {
-	overflow: hidden;
-	margin: 0px;
+	overflow-y: scroll; /*changed from hidden to scroll my guy*/
+	overflow-x:hidden;
+ 	margin: 0px;
 	background-image: url("./images/MarbleBackground.jpg");
+	height:100%; /*added this one bruh for footer*/
+	padding:0;
 }
 
 header {
@@ -66,4 +78,46 @@ hr {
 }
 .redletter {
 	color: red;
+}
+
+footer {
+line-height:100px;
+position: fixed;
+background: #D3D3D3;
+bottom:0px;
+width: 100%;
+margin-left: 0;
+margin-right: 0;
+height: 80px;
+text-align: center;
+ }
+
+
+/*adding a wrapper my guy*/
+
+#wrapper{
+min-height:100%;
+position:auto;
+}
+
+#table1{
+display:inline-block;          
+}
+
+#table2{
+ display:inline-block;             
+margin-left:50px;
+
+}
+
+#table3{
+ display:inline-block;             
+margin-left:50px;
+
+}
+
+#table4{
+ display:inline-block;             
+margin-left:50px;
+
 }
