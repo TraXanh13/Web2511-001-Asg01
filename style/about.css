@@ -7,9 +7,9 @@
 #imgSamurai{
 width:195px;
 height:auto;	
-float:left;
+float:right;
 margin:10px;
-padding-right:5px;
+padding-left:15px;
 text-align:center;
 }
 p{
