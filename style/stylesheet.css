@@ -57,13 +57,11 @@ footer {
 	color: red;
 }
 
-*If scrolling is involved*/
-*footer, #push{
+footer, #push {
 	height: 50px;
-	position:absolute;
 }
 
 #wrapper {
 	min-height: 100%;
-	margin-bottom: 0px;
+	margin-bottom: -50px;
 }
