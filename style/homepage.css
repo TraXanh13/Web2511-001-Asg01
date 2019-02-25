@@ -1,0 +1,38 @@
+main {
+	margin: 5px;
+	padding: 5px;
+	width: 72%;
+	background-color: green;
+	float: left;
+}
+
+aside {
+	border: 1px solid black;
+	margin-right: 5px;
+	margin-top: 5px;
+	padding: 5px;
+	width: 25%;
+	background-color: white;
+	float: right;
+}
+
+table, td {
+	border: 1px solid black;
+	text-align: center;
+}
+
+.article {
+	display: inline-block;
+	text-align: center;
+	border: 1px solid black;
+	width: 24.45%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.easyReadSeperater {
+	background-color: #BCBCBC;
+}

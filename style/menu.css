@@ -1,20 +1,19 @@
-#table1{
-	display:inline-block;          
-}
-
-#table2{
-	display:inline-block;             
+#tableLeft{
 	margin-left:117px;
 }
 
-#table3{
+#tableRight {
+	margin-right: 117px;
+	float: right;
+}
+table{
+	float: left;
 	display:inline-block;             
-	margin-left:117px;
+	margin-left: 1.3%;
 }
 
-#table4{
-	display:inline-block;             
-	margin-left:117px;
+table, td {
+	border: 1px solid black;
 }
 
 #Combo-header{
