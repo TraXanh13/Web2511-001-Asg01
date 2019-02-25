@@ -4,14 +4,18 @@
 	margin-right:auto;
 }
 
-#imgSamurai{
-width:195px;
-height:auto;	
-float:right;
-margin:10px;
-padding-left:15px;
-text-align:center;
+figure{
+	float: right;
+	padding-left:15px;
+	text-align:center;
+		margin:10px;
 }
+
+#imgSamurai{
+	width:195px;
+	height:auto;	
+}
+
 p{
-padding-top: 18px;	
+	padding-top: 18px;	
 }

@@ -1,6 +1,5 @@
 body{
-	overflow-y:scroll;
-	overflow-x:hidden;	
+	overflow-y:scroll;	
 }
 
 .tableLeft{
@@ -24,10 +23,6 @@ table, td {
 
 nav {
 	text-align: center;
-}
-
-#dinner {
-	verticle-align: bottom;
 }
 
 .Combo-header{

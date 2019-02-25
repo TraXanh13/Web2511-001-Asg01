@@ -24,7 +24,7 @@ header {
 
 #logo {
 	height: 150px;
-	align: center;
+	margin: auto;
 }
 
 li {
@@ -60,12 +60,11 @@ footer {
 	color: red;
 }
 
-#push {
-	height: 100px;
+.push {
+	height: 400px;
 }
 
 #wrapper {
 	min-height: 100%;
 	margin-bottom: 50px;
-	background-color: red;
 }
