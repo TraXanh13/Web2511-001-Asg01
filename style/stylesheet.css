@@ -1,20 +1,18 @@
 html {
-	height:100%
-	margin:0;
-	padding:0;	/*added this one too bruh*/
+	padding:0;
 }
-
-
 
 body {
 	overflow-x:hidden;
- 	margin: 0px;
-	height:100%; /*added this one bruh for footer*/
-	padding:0;
 	overflow: hidden;
 	margin: 0px;
 	/*Image taken from pixabay: https://pixabay.com/en/white-background-pattern-tile-2398946/ */
 	background-image: url("../images/MarbleBackground.jpg");
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
 }
 
 header {
@@ -42,6 +40,16 @@ hr {
 	margin: 0px;
 }
 
+footer {
+	background: #D3D3D3;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 5px;
+	text-align: center;
+	height: 50px;
+}
+
 .selected {
 	color: #FE657A;
 }
@@ -53,20 +61,8 @@ hr {
 .redletter {
 	color: red;
 }
-
-footer {
-line-height:100px;
-position: fixed;
-background: #D3D3D3;
-bottom:0px;
-width: 100%;
-margin-left: 0;
-margin-right: 0;
-height: 80px;
-text-align: center;
- }
-
-#wrapper{
-	min-height:50%;
-	position:auto;
+ 
+#wrapper {
+	min-height: 100%;
+	margin-bottom: -50px;
 }
