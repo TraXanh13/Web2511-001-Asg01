@@ -4,22 +4,21 @@
 		<link rel="stylesheet" type = "text/css" href="./style/stylesheet.css" />
 		<link rel="stylesheet" type = "text/css" href="./style/menu.css"/>
 	</head>
-	<body background ="./images/MarbleBackground.jpg">
-<header>
-	<div id ="wrapper" class="clearfix">
-			<!-- Logo created using https://hatchful.shopify.com/ -->
-			<a href = "homepage.html"> <img id ="logo" src = "./images/BlossomLogoPinkBackground.png" alt = "The blossom logo"/> </a>
-			<hr/>
-			<nav>
-				<ul>
-					<li><a href = "homepage.html">Home</a></li>
-					<li><a class = "selected" href = "menu.html">Menu</a></li>
-					<li><a href = "about.html">About</a></li>
-					<li><a href = "reservetable.html">Reservations</a></li>
-				<ul>
-			</nav>
-			<hr/>
-		</header>		
+	<body>
+	<header>
+		<!-- Logo created using https://hatchful.shopify.com/ -->
+		<a href = "homepage.html"> <img id ="logo" src = "./images/BlossomLogoPinkBackground.png" alt = "The blossom logo"/> </a>
+		<hr/>
+		<nav>
+			<ul>
+				<li><a href = "homepage.html">Home</a></li>
+				<li><a class = "selected" href = "menu.html">Menu</a></li>
+				<li><a href = "about.html">About</a></li>
+				<li><a href = "reservetable.html">Reservations</a></li>
+			<ul>
+		</nav>
+		<hr/>
+	</header>		
 	<div id = "Menu-Header">
 	 <h1 id ="Combo-header" > <span class = "redletter">S</span>hogun <span class = "redletter">C</span>ombo </h1>
 	 <h2 id ="Choice-tag"> 	A choice of Appetizer,</br> Sushi, Ramen or Ricebowl </h2>
@@ -32,13 +31,13 @@
 		https://pixabay.com/en/salmon-sushi-dining-room-restaurant-1353598/
 		https://pixabay.com/en/food-takoyaki-ball-1614130/ -->
 	<div id ="slider">
-	<figure>
-	<img src ="./images/Ramen.jpg">
-	<img src ="./images/Rice bowl.jpg">
-	<img src ="./images/Sushi.jpg ">
-	<img src ="./images/takoyaki.jpg">
+	<!--<figure>
+	<img div id = "imgRamen" src ="./images/Ramen.jpg">
+	<img div id= "imgRice"  src ="./images/Rice bowl.jpg">
+	<img div id = "imgSushi" src ="./images/Sushi.jpg ">
+	<img div id ="imgtakoyaki"src ="./images/takoyaki.jpg">
 	</figure>
-	
+	-->
 	</div>
 
 
@@ -51,6 +50,9 @@
 	<table div id = "table1" border="1">
 
 	<caption><strong><span class = "redletter">A</span>ppetizers</strong></caption> 
+
+	<!--<img div id ="imgtakoyaki"src ="./images/takoyaki.jpg">
+	-->
 	<tbody>
 		<tr>
 		<td>Edamame	</td>
@@ -68,7 +70,9 @@
 		</tr>
 	
 		<tr>
-			<td>Takoyaki	</td>
+			<td>Takoyaki	
+				<img id ="imgtakoyaki"src ="./images/takoyaki.jpg">
+			</td>
 			<td>7.95	</td>
 		</tr>
 		
@@ -100,7 +104,10 @@
 	<caption><strong><span class = "redletter">S</span>ushi</strong></caption> 
 	<tbody>
 		<tr>
-		<td> Nigiri	</td>
+		<td> Nigiri	
+			<img id = "imgSushi" src ="./images/Sushi.jpg ">
+		</td>
+
 		<td>5	</td>
 		</tr>
 
@@ -146,7 +153,9 @@
 		</tr>
 		
 		<tr>
-			<td> Miso Butter Ramen</td>
+			<td> Miso Butter Ramen
+			<img id = "imgRamen" src ="./images/Ramen.jpg">
+			</td>
 			<td>9.95	</td>
 		</tr>
 	
@@ -177,7 +186,9 @@
 	<caption><strong><span class = "redletter">R</span>ice bowl</strong></caption> 
 	<tbody>
 		<tr>
-		<td>Poke Bowl	</td>
+		<td>Poke Bowl
+		<img id= "imgRice"  src ="./images/Rice bowl.jpg">
+		</td>
 		<td>9.50</td>
 		</tr>
 

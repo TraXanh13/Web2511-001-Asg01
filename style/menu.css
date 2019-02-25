@@ -8,17 +8,17 @@ body {
 
 #table2{
 	display:inline-block;             
-	margin-left:50px;
+	margin-left:117px;
 }
 
 #table3{
 	display:inline-block;             
-	margin-left:50px;
+	margin-left:117px;
 }
 
 #table4{
 	display:inline-block;             
-	margin-left:50px;
+	margin-left:117px;
 }
 
 #Combo-header{
@@ -41,4 +41,23 @@ body {
 	font-size: 45px;
 	margin-top: 1px;
 	margin-bottom:1px;	
+}
+#imgtakoyaki{
+		width:120px; 
+		height: auto;
+	
+	
+}
+#imgSushi{
+	width: 120px;
+	height:auto;
+}
+#imgRice{
+	width:120px;
+	height:auto;
+}
+#imgRamen{
+	width:120px;
+	height:auto;
+	
 }
