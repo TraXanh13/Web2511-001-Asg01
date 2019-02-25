@@ -1,7 +1,17 @@
+#main{
+	width: 75%;
+	margin-left:auto;	
+	margin-right:auto;
+}
+
 #imgSamurai{
-width:120px;
-height:auto;
-valign:top;	
-	
-	
+width:195px;
+height:auto;	
+float:left;
+margin:10px;
+padding-right:5px;
+text-align:center;
+}
+p{
+padding-top: 18px;	
 }
